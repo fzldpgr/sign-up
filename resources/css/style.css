@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(71, 71, 71);
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    
+    display: flex;
+    justify-content: center; /*centers items on the line (the x-axis by default)*/
+    align-items: center; /*centers items on the cross-axis (y by default)*/
+}
+
+.section__form
+{
+    margin: 100px 50px 10px 50px;
+}
+
+.logo
+{
+    display: block;
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 5%;
+}
+
+.logo img
+{
+    width: 50%;
+    height: auto;
+}
+
+.shape
+{
+    width: 475px;
+    border-radius: 15px;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    padding-top: 1px;
+}
+
+.row
+{
+    max-width: 675px;
+    margin: 0 auto 0 auto;
+}
+
+h1
+{
+    font-weight: 300;
+    text-transform: uppercase;
+    display: block;
+    color: rgb(59, 59, 59);
+    text-align: center;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+
+    margin-top: -70px;
+    margin-bottom: 35px;
+}
+
+.register-form
+{
+    width: 95%;
+    margin: auto;
+}
+
+form
+{
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password]
+{
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type=submit]
+{
+    cursor: pointer;
+}
+
+.form__button
+{
+    margin-top: 25px;
+}
+
+input
+{
+    margin-bottom: 10px;
+}
+
+*:focus
+{
+    outline: none;
+}
+
+.shape .form__name,
+.shape .form__password
+{
+    display: flex;
+}
+
+.form__name,
+.form__password
+{
+    margin-bottom: 10px;
+}
+
+.form__name input[id=f-name],
+.form__password input[id=password]
+{
+    margin: 0px 5px 0px 0px;
+}
+
+.form__name input[id=l-name],
+.form__password input[id=rpt__password]
+{
+    margin: 0px 0px 0px 5px;
+}
+
+input:focus-within,
+input:hover
+{
+    box-shadow: 1px 1px 1px 1px #dcdcdc;
+}
+
+input[type=submit]
+{
+    padding: 10px 30px;
+    border-radius: 15px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    background-color: #2298e6;
+    border: 1px solid #2298e6;
+    color: #fff;
+    
+    display: block;
+    margin: 10px 0 0 auto;
+}
+
+input[type=submit]:hover,
+input[type=submit]:active
+{
+    background-color: #1976b4;
+}
+
+::placeholder
+{
+    color: rgb(126, 126, 126);
+}
