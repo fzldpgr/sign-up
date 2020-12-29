@@ -23,9 +23,7 @@ body
 }
 
 .section__form
-{
-    margin: 100px 50px 10px 50px;
-}
+{margin: 100px 50px 10px 50px;}
 
 .logo
 {
@@ -95,54 +93,36 @@ input[type=password]
 }
 
 input[type=submit]
-{
-    cursor: pointer;
-}
+{cursor: pointer;}
 
 .form__button
-{
-    margin-top: 25px;
-}
+{margin-top: 25px;}
 
 input
-{
-    margin-bottom: 10px;
-}
+{margin-bottom: 10px;}
 
 *:focus
-{
-    outline: none;
-}
+{outline: none;}
 
 .shape .form__name,
 .shape .form__password
-{
-    display: flex;
-}
+{display: flex;}
 
 .form__name,
 .form__password
-{
-    margin-bottom: 10px;
-}
+{margin-bottom: 10px;}
 
 .form__name input[id=f-name],
 .form__password input[id=password]
-{
-    margin: 0px 5px 0px 0px;
-}
+{margin: 0px 5px 0px 0px;}
 
 .form__name input[id=l-name],
 .form__password input[id=rpt__password]
-{
-    margin: 0px 0px 0px 5px;
-}
+{margin: 0px 0px 0px 5px;}
 
 input:focus-within,
 input:hover
-{
-    box-shadow: 1px 1px 1px 1px #dcdcdc;
-}
+{box-shadow: 1px 1px 1px 1px #dcdcdc;}
 
 input[type=submit]
 {
@@ -152,18 +132,13 @@ input[type=submit]
     background-color: #2298e6;
     border: 1px solid #2298e6;
     color: #fff;
-    
     display: block;
     margin: 10px 0 0 auto;
 }
 
 input[type=submit]:hover,
 input[type=submit]:active
-{
-    background-color: #1976b4;
-}
+{background-color: #1976b4;}
 
 ::placeholder
-{
-    color: rgb(126, 126, 126);
-}
+{color: rgb(126, 126, 126);}
